@@ -12,7 +12,8 @@ Use this skill for one-pass EB interview delivery: full-length telop video first
 - Full video: `<日本語ベース名>_テロップ付き.mp4`
 - Shorts folder: `<日本語ベース名>_縦型ショート切り抜き/`
 - Shorts manifest: `<日本語ベース名>_縦型ショート切り抜き/00_切り抜き候補一覧.json`
-- Shorts are exported as `NN_日本語タイトル/NN_日本語タイトル.mp4` (+ matching `.srt`).
+- Shorts are exported as `NN_日本語テーマ名/NN_日本語テーマ名.mp4` (+ matching `.srt`).
+- Use concise Japanese theme names that make the content of each short understandable at a glance.
 - Default short count: minimum 8 clips, up to 12 by default when additional strong candidates exist.
 - By default, remove `<日本語ベース名>_テロップ素材` after full render and short generation complete.
 - Use `--keep-assets` only when you explicitly need the intermediate files to remain on disk.
@@ -155,6 +156,7 @@ This script:
 - Final user-facing deliverables are:
   - one full-length Japanese-named telop mp4
   - one short-clip folder with multiple vertical clips and clear Japanese names
+- Name each short clip folder and exported video after that clip's main theme in concise Japanese so the content is clear from the filename alone.
 - By default, no telop asset folder should remain after final render + short export.
 - If timestamps are needed after cleanup, rely on the script stdout or the final response, not a kept file.
 - Preview mp4/png files, prototype files, and design-check stills should not remain after the final run unless the user asked to keep them.
