@@ -552,7 +552,10 @@ def build_filtergraph(
     escaped_font = escape_filter_value(str(font_file))
     escaped_subtitle = escape_filter_value(str(subtitle_path))
     escaped_font_dir = escape_filter_value(str(font_file.parent))
-    drawtext_font_arg = f"fontfile='{escaped_font}'"
+    drawtext_font_arg = (
+        f"fontfile='{escaped_font}':"
+        f"font='{escape_filter_value(drawtext_font_name)}'"
+    )
     style = (
         f"FontName={subtitle_font_name},"
         "Fontsize=26,"
