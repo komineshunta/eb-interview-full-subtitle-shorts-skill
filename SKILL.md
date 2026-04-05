@@ -138,10 +138,15 @@ This script:
 
 ## Short selection policy
 
-- Prefer self-contained segments that make sense without extra context.
-- Prefer segments with a strong hook in the opening seconds.
-- Prefer segments that include learning, realization, emotion, or surprising points.
-- Avoid long filler segments and highly context-dependent fragments.
+- Prioritize moments where EB's appeal comes through as a complete short even without earlier context.
+- Prioritize segments that communicate clear EB value, especially class quality, teacher support, learning progress, motivation or confidence gain, daily life, safety, food, comfort, or concrete reasons the stay felt worthwhile.
+- Prefer self-contained answer blocks that still make sense without the preceding exchange and have a clear beginning, middle, and conclusion.
+- Start clips on the student's own speech whenever possible.
+- Keep the interviewer's question only when removing it would make the student's answer confusing.
+- Prefer segments with a strong hook in the opening seconds when the surrounding narrative also holds together as one short.
+- Prefer segments that include learning, realization, emotion, or surprising points when they remain understandable on their own.
+- Exclude greetings, backchannels, filler, and fragments that feel underexplained or depend heavily on missing setup.
+- If multiple candidate windows make the same point, keep the cleaner and more compact one.
 - Do not pad with weak clips just to hit a number.
 - If fewer than 8 valid candidates are available, revise transcript cleanup/chapter assumptions and rerun.
 
